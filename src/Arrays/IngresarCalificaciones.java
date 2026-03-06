@@ -25,5 +25,15 @@ public class IngresarCalificaciones {
 
         }
 
+        int count = 0;
+        System.out.println("\n---------------------------------------------");
+        System.out.println("        Calificaciones Ingresadas");
+        System.out.println("---------------------------------------------");
+        for(double n : calificaciones){
+            System.out.println("Estudiante["+count+"] -> " + n);
+        }
+        System.out.println("---------------------------------------------\n");
+
+
     }
 }
