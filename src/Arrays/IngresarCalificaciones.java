@@ -31,6 +31,7 @@ public class IngresarCalificaciones {
         System.out.println("---------------------------------------------");
         for(double n : calificaciones){
             System.out.println("Estudiante["+count+"] -> " + n);
+            count = count + 1;
         }
         System.out.println("---------------------------------------------\n");
 
