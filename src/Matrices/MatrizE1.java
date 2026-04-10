@@ -21,12 +21,12 @@ public class MatrizE1 {
 
     }
 
-    public void mostrarMatriz(int[][] matriz, int f, int c]){
+    public void mostrarMatriz(int[][] matriz, int f, int c){
         for (int i = 0; i < f; i++) {
             for (int j = 0; j < c; j++) {
-
+                System.out.print(matriz[i][j] + " ");
             }
-
+            System.out.println("");
         }
 
     }
