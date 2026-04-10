@@ -10,5 +10,11 @@ public class MatrizE1 {
         System.out.print("n -> "); f = input.nextInt();
         System.out.print("c -> "); c = input.nextInt();
         int[][] matriz = new int[f][c];
+        for (int i = 0; i < f ; i++) {
+            for (int j = 0; j < c; j++) {
+
+            }
+
+        }
     }
 }
