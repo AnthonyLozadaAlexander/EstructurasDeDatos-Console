@@ -1,4 +1,4 @@
-﻿package Matrices;
+package Matrices;
 
 import java.util.Scanner;
 
@@ -24,12 +24,19 @@ public class MatrizE1 {
     }
 
     public static void mostrarMatriz(int[][] matriz, int f, int c){
+        System.out.println("-------------------------------------");
         for (int i = 0; i < f; i++) {
+            if(i == 0){ // primera fila
+                System.out.print("[");
+            }
             for (int j = 0; j < c; j++) {
                 System.out.print(matriz[i][j] + " ");
+                if(i == f - 1 && j == c - 1){ // ultima columna
+                    System.out.print("]");
+                }
             }
-            System.out.println("");
+            System.out.println();
         }
-
+        System.out.println("-------------------------------------");
     }
 }
