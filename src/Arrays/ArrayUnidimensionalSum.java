@@ -32,7 +32,7 @@ public class ArrayUnidimensionalSum {
                 k = 2;
             }
             else{
-                k = 2 * k;
+                k = (k * 2);
             }
         }
 
