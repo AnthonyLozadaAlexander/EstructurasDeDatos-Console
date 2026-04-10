@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class MatrizE1 {
     public static void main(String[] args) {
+        int[][] MatrizEjemplo = {{3,3,3},
+                                 {2,2,2},
+                                 {1,1,1}};
+
         Scanner input = new Scanner(System.in);
         int f, c;
         System.out.println("Ingrese el Tamaño de la Matriz (f x c)");
