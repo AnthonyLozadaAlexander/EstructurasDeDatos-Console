@@ -8,9 +8,9 @@ public class WhileE2 {
             System.out.println("["+i+"]");
             int j = 1;
             while(j <= 10){
-                j = j + 1;
                 System.out.println("While J");
                 System.out.println("["+j+"]");
+                j = j + 1;
             }
             i = i + 2;
         }
