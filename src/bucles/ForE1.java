@@ -13,8 +13,8 @@ public class ForE1 {
         n = input.nextInt();
         input.nextLine(); // limpiar buffer
         System.out.println("------------------------------");
-        int res = sumaN(n, z);
-        System.out.println("La suma desde 0 hasta " + n + " es: " + res);
+        // int res = sumaN(n, z);
+        System.out.println("La suma desde 0 hasta " + n + " es: " + sumaN(n, z));
 
     }
 
