@@ -28,4 +28,15 @@ public class ArrayComparacion {
         }
     }
 
+    public static int NotaMaxima(int[] notas){
+        int max = notas[0];
+        for (int i = 0; i < notas.length; i++) {
+            if(notas[i] > max){
+                max = notas[i];
+            }
+        }
+
+        return max;
+    }
+
 }
