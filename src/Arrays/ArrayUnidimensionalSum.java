@@ -19,7 +19,7 @@ public class ArrayUnidimensionalSum {
         }
         System.out.println("-----------------------------------------");
         mostrarArr(array, n);
-
+        System.out.println("\nLa suma de los elementos en indices ^2 es : " + suma(array, n));
     }
 
     public static double suma(double[] d, int n){
