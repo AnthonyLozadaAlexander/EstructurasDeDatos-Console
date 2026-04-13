@@ -1,4 +1,4 @@
-﻿package bucles;
+package bucles;
 
 import java.util.Scanner;
 
@@ -14,6 +14,7 @@ public class ForE1 {
         input.nextLine(); // limpiar buffer
         System.out.println("------------------------------");
         int res = sumaN(n, z);
+        System.out.println("La suma desde 0 hasta " + n + " es: " + res);
 
     }
 
@@ -22,7 +23,6 @@ public class ForE1 {
         for (int i = 0; i < n; i++) {
             z = z + 1;
         }
-
         return z;
     }
 }
