@@ -11,12 +11,14 @@ public class MatrizE2_Sum {
                 System.out.println("Ingrese el Elemento["+i+"]["+j+"]");
                 System.out.print("-> ");
                 Matriz[i][j] = input.nextInt();
+                input.nextLine(); // limpiar buffer
             }
         }
 
         mostrarMatriz(Matriz, Matriz.length, Matriz[0].length);
         int res = sumarMatriz(Matriz, Matriz.length, Matriz[0].length);
         System.out.println("La suma de la matriz es de: " + res);
+        input.close();
 
     }
 
