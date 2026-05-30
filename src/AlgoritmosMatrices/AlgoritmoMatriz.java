@@ -13,5 +13,20 @@ public class AlgoritmoMatriz {
 
             System.out.println();
         }
+
+    }
+
+    public static int mayorMatriz(int[][] matriz, int mayor){
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                if (matriz[i][j] > mayor) {
+                    mayor = matriz[i][j];
+                }
+
+            }
+
+        }
+
+        return mayor;
     }
 }
