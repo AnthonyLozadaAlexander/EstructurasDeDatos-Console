@@ -36,5 +36,9 @@ public class MatrizENumMayor {
 
         }
 
+        System.out.println("Numero Mayor De La Matriz es: " + mayor);
+        System.out.println("Fila = " + indexF);
+        System.out.println("Columna = " + indexC);
+
     }
 }
