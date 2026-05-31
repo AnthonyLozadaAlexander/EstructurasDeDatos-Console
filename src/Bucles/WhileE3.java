@@ -1,18 +1,18 @@
-package bucles;
+package Bucles;
 
-public class whileE {
+public class WhileE3 {
     public static void main(String[] args) {
-        int i=1, n=2, j;
-        while(i <= n){
+        int i = 1;
+        while(i <= 10){
             System.out.println("While I");
             System.out.println("["+i+"]");
-            j = 1;
-            while(j <= n){
-                j = j*2;
+            int j = 1;
+            while(j <= 10){
                 System.out.println("While J");
                 System.out.println("["+j+"]");
+                j = j + 1;
             }
-            i++;
+            i = i + 2;
         }
     }
 }

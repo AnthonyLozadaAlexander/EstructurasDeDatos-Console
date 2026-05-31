@@ -1,4 +1,4 @@
-package bucles;
+package Bucles;
 
 class DobleFor {
     static void main(String[] args) {
